@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/midori",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "A lightweight testing library for Roblox",
 	"main": "src/init.lua",
 	"keywords": [
