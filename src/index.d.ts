@@ -113,12 +113,12 @@ export interface TestProps<Context extends object = {}> {
 	readonly nested: (name: string, callback: () => void) => void;
 	/**
 	 * Throws if `callback` does not throw an error containing `substring`. If
-	 * `substring` is not provided, the error message is not checked.
+	 * a substring is not provided, the error message is not checked.
 	 *
 	 * @param callback The function to test.
-	 * @param substring The substring to search for in the error message.
+	 * @param substrings The substrings to search for in the error message.
 	 *
 	 * @see https://nezuo.github.io/midori/api/x#shouldThrow
 	 */
-	readonly shouldThrow: (callback: () => void, substring?: string) => void;
+	readonly shouldThrow: (callback: () => void, ...substrings: string[]) => void;
 }
