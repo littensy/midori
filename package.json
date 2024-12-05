@@ -26,8 +26,8 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@rbxts/compiler-types": "2.1.0-types.1",
-		"@rbxts/types": "^1.0.732",
+		"@rbxts/compiler-types": "3.0.0-types.0",
+		"@rbxts/types": "^1.0.813",
 		"@typescript-eslint/eslint-plugin": "^5.62.0",
 		"@typescript-eslint/parser": "^5.62.0",
 		"eslint": "^8.54.0",
@@ -35,7 +35,7 @@
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-roblox-ts": "^0.0.35",
 		"prettier": "^2.8.8",
-		"roblox-ts": "^2.2.0",
+		"roblox-ts": "^3.0.0",
 		"typescript": "^5.3.2"
 	}
 }
